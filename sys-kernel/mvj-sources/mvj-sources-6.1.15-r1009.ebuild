@@ -52,5 +52,9 @@ pkg_postinst() {
 	elog "	/usr/src/linux/arch/riscv/boot/dts/spacemit/*.dtb"
 	elog "After all that adjust the env file in the bootfs accordingly"
 	elog
+	elog "To build and install the modules, run"
+	elog "	\`make modules\`"
+	elog "	\`make modules_install\`"
+	elog
 }
 
