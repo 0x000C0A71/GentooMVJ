@@ -1,0 +1,8 @@
+DEFINED_PHASES=install
+DESCRIPTION=Firmware necessary to have the MilkV Jupiter boot
+EAPI=8
+HOMEPAGE=https://github.com/milkv-jupiter/buildroot-ext
+KEYWORDS=~riscv
+SLOT=0
+SRC_URI=https://github.com/milkv-jupiter/buildroot-ext/archive/refs/tags/v1.0.14.tar.gz -> mvj-rcpu-rproc-fw-1.0.14.tar.gz
+_md5_=0a355a1bd7d3d140b0117c163ada3f3a
