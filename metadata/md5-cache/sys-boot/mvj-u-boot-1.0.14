@@ -1,0 +1,12 @@
+BDEPEND=sys-apps/dtc
+DEFINED_PHASES=compile install postinst prepare
+DESCRIPTION=MilkV's U-Boot. Uses savedconfig -> you can edit the config
+EAPI=8
+HOMEPAGE=https://github.com/milkv-jupiter/uboot-2022.10
+INHERIT=savedconfig
+IUSE=savedconfig
+KEYWORDS=~riscv
+SLOT=0
+SRC_URI=https://github.com/milkv-jupiter/uboot-2022.10/archive/refs/tags/v1.0.14.tar.gz -> mvj-u-boot-1.0.14.tar.gz
+_eclasses_=portability	225656ad6c6594fe3b0187bdd50707fb	savedconfig	b9131abe556ad2ea96c01b06d658d363
+_md5_=9f94a222c0a545fa680b542fa228b427
